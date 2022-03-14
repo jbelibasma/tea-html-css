@@ -1,0 +1,185 @@
+html{
+    font-size: 20px;
+}
+body{
+    font-size: 16px;
+}
+header, footer{
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+     background-size: cover;
+    color: white;
+}
+header .img1{
+    width: 5%;
+    height: 5%;
+    float: right;
+    margin-top: top;
+    
+}
+header p{
+    text-align: center;
+    padding: 0.25% 0;
+    margin: 0;
+    background-color: #879e0f;
+   
+}
+header div{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-basis: 100%;
+}
+header div .img2{
+    width: 5%;
+    height: 5%;
+}
+header div a{
+    font-size: 1.5rem;
+}
+
+header div .img2, header div a{
+    flex-basis: 15%;
+
+}
+nav, .navul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;   
+}
+nav a, .navul article{
+    flex-basis: 20%;
+}
+.navul nav ul li{
+    list-style-type: none;
+   padding: 2% 0; 
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+nav>a{
+    padding: 1% 0;
+}
+nav .fas, nav .far, nav .fa{
+    display: block;
+    padding: 1% 0;
+    font-size: 1.2rem;
+}
+/* main .........................................main.......*/
+
+main{
+ max-width: 60%;
+ background-color: rgba(246, 243, 243, 0.959);
+ margin: auto;
+ padding:3% 20%;
+ text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 20px;
+}
+h1, h2{
+    color:#879e0f ;
+}
+section #offre img{
+    width: 100%;
+
+}
+.théhome, .producthome, #produclist, #concept, .thenoir{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    background-color: white;
+    text-align: center;
+}
+.producthome .thépro, .théhome div, #produclist .listim, #concept article, .thenoir div {
+    flex-basis: 20%;
+}
+section h2{
+    flex-basis: 100%;
+}
+
+#concept{
+    clear: right;
+}
+
+#produclist .listp, #about{
+    text-align: left;
+    padding-left: 2%;
+    
+}
+#produclist .listim img{
+    width: 100%;
+}
+#produclist .listp img{
+    float: left;
+}
+
+.producthome .thépro a, #produclist .listim a, .thenoir div .ajouter {
+    background-color: #af9066;
+    width:100%;
+    display: block;
+    margin: 1 2%;
+    padding: 2% 0;
+}
+.producthome .thépro strong, #produclist .listim strong{
+    display: block;
+}
+
+section .amelie{
+    float: left;
+    padding-right: 2%;
+}
+section .xavier{
+    float: right;
+    clear: left;
+}
+#about{
+    background-color: white;
+    padding-bottom: 2%;
+}
+#concept{
+    background-color:#879e0f ;
+    padding: 2% 0;
+}
+.thenoir  div .malist{
+    color:#73870d
+    ;
+    margin: 2% 0;
+}
+#prothebleu{
+    background-color: white;
+    padding: 2% 0;
+}
+
+
+
+
+
+
+
+
+
+/* footer ......................................footer ..........*/
+footer>nav{
+    background-color: #879e0f;
+   
+}
+footer .academy{
+    text-align: center;
+    padding: 1% 0;
+    background-color: rgba(135,	158, 15, 0.8);
+}
+footer .academy img{
+    width: 2%;
+    height: 2%;
+}
